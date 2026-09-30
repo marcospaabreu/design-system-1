@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aura Contabilidade Estratégica | Clareza Financeira e BPO</title>
+  
+  <!-- Tailwind CSS & Ícones -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <style>
+    body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #F8FAFC; }
+    h1, h2, h3, h4, .font-heading { font-family: 'Outfit', sans-serif; }
+    .glass-nav { background: rgba(255, 255, 255, 0.92); backdrop-filter: blur(12px); border-bottom: 1px solid #E2E8F0; }
+    .glass-card { background: rgba(255, 255, 255, 0.96); backdrop-filter: blur(10px); border: 1px solid #E2E8F0; }
+    .gradient-text { background: linear-gradient(135deg, #0F172A 0%, #1E3A8A 50%, #059669 100%); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+  </style>
+</head>
+<body class="text-slate-800 antialiased selection:bg-emerald-500 selection:text-white">
+
+  <!-- BARRA DE TOPO -->
+  <div class="bg-slate-900 text-xs text-slate-300 py-2 border-b border-slate-800 hidden md:block">
+    <div class="max-w-7xl mx-auto px-6 flex justify-between items-center">
+      <div class="flex items-center space-x-6">
+        <span><i class="fa-solid fa-shield-halved text-emerald-400 mr-1.5"></i> CRC Ativo: 1SP99999/O-0</span>
+        <span><i class="fa-solid fa-clock text-emerald-400 mr-1.5"></i> Atendimento Seg a Sex: 08:30 às 18:00</span>
+      </div>
+      <div class="flex items-center space-x-6">
+        <a href="tel:1134567890" class="hover:text-emerald-400 transition"><i class="fa-solid fa-phone mr-1"></i> (11) 3456-7890</a>
+        <a href="mailto:contato@auracontabil.com.br" class="hover:text-emerald-400 transition"><i class="fa-solid fa-envelope mr-1"></i> contato@auracontabil.com.br</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- MENU / NAVBAR -->
+  <header class="sticky top-0 z-50 glass-nav">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <a href="#" class="flex items-center space-x-3">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-slate-900 to-emerald-600 flex items-center justify-center text-white shadow-md">
+          <i class="fa-solid fa-chart-line text-lg"></i>
+        </div>
+        <div class="flex flex-col">
+          <span class="text-xl font-bold font-heading text-slate-900">Aura<span class="text-emerald-600">.</span>Contábil</span>
+          <span class="text-[10px] uppercase tracking-widest text-slate-500 font-semibold -mt-1">Estratégia & BPO</span>
+        </div>
+      </a>
+
+      <nav class="hidden lg:flex items-center space-x-8 font-medium text-sm text-slate-600">
+        <a href="#solucoes" class="hover:text-emerald-600 transition">Soluções</a>
+        <a href="#simulador" class="hover:text-emerald-600 transition flex items-center gap-1.5">
+          Simulador Tributário 
+          <span class="bg-emerald-100 text-emerald-700 text-[10px] font-bold px-2 py-0.5 rounded-full">Interativo</span>
+        </a>
+        <a href="#diferenciais" class="hover:text-emerald-600 transition">Diferenciais</a>
+        <a href="#depoimentos" class="hover:text-emerald-600 transition">Depoimentos</a>
+        <a href="#faq" class="hover:text-emerald-600 transition">Dúvidas</a>
+      </nav>
+
+      <div class="flex items-center space-x-4">
+        <a href="#contato" class="px-5 py-2.5 text-sm font-semibold rounded-xl text-white bg-slate-900 hover:bg-slate-800 shadow transition">
+          Diagnóstico Gratuito
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="relative pt-12 pb-20 lg:pt-16 lg:pb-28 overflow-hidden bg-slate-50">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        
+        <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+          <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-emerald-50 border border-emerald-200 text-emerald-800 text-xs font-semibold">
+            <span class="w-2 h-2 rounded-full bg-emerald-500 animate-ping"></span>
+            Assessoria Contábil Consultiva & BPO Estratégico
+          </div>
+
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 font-heading leading-tight">
+            Clareza financeira e inteligência fiscal para a sua empresa <span class="gradient-text">lucrar mais.</span>
+          </h1>
+
+          <p class="text-lg text-slate-600 max-w-2xl mx-auto lg:mx-0">
+            Esqueça a contabilidade tradicional que só envia guias em cima da hora. Transformamos sua rotina financeira com <strong>planejamento tributário preventivo</strong>, <strong>BPO financeiro completo</strong> e <strong>CFO sob demanda</strong>.
+          </p>
+
+          <div class="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 pt-2">
+            <a href="#simulador" class="w-full sm:w-auto inline-flex items-center justify-center px-7 py-3.5 rounded-xl text-white bg-emerald-600 hover:bg-emerald-700 font-semibold shadow-lg shadow-emerald-600/20 transition">
+              <i class="fa-solid fa-calculator mr-2"></i>
+              Simular Redução de Impostos
+            </a>
+            <a href="#contato" class="w-full sm:w-auto inline-flex items-center justify-center px-7 py-3.5 rounded-xl text-slate-700 bg-white hover:bg-slate-100 border border-slate-300 font-semibold transition">
+              <i class="fa-brands fa-whatsapp text-emerald-600 text-lg mr-2"></i>
+              Falar no WhatsApp
+            </a>
+          </div>
+
+          <div class="pt-6 border-t border-slate-200 grid grid-cols-3 gap-4 text-center lg:text-left">
+            <div>
+              <p class="text-2xl font-bold font-heading text-slate-900">+R$ 48M</p>
+              <p class="text-xs text-slate-500 font-medium">Economizados em tributos</p>
+            </div>
+            <div>
+              <p class="text-2xl font-bold font-heading text-slate-900">99.4%</p>
+              <p class="text-xs text-slate-500 font-medium">Retenção de clientes</p>
+            </div>
+            <div>
+              <p class="text-2xl font-bold font-heading text-slate-900">450+</p>
+              <p class="text-xs text-slate-500 font-medium">Empresas ativas</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- HERO MOCKUP -->
+        <div class="lg:col-span-5">
+          <div class="bg-slate-900 rounded-2xl p-6 text-white shadow-2xl border border-slate-800">
+            <div class="flex items-center justify-between pb-4 border-b border-slate-800">
+              <span class="text-xs text-slate-400 font-mono">painel-financeiro.live</span>
+              <span class="px-2 py-0.5 rounded text-[11px] font-medium bg-emerald-500/20 text-emerald-300">
+                100% Conforme Receita
+              </span>
+            </div>
+
+            <div class="grid grid-cols-2 gap-4 mt-5">
+              <div class="bg-slate-800 p-4 rounded-xl border border-slate-700">
+                <span class="text-xs text-slate-400">Economia Mensal</span>
+                <p class="text-2xl font-bold text-emerald-400 mt-1">R$ 8.450</p>
+                <span class="text-[11px] text-emerald-400">Fator R ativado</span>
+              </div>
+              <div class="bg-slate-800 p-4 rounded-xl border border-slate-700">
+                <span class="text-xs text-slate-400">Saúde Fiscal</span>
+                <p class="text-2xl font-bold text-blue-400 mt-1">98.5 <span class="text-xs text-slate-400">/100</span></p>
+                <span class="text-[11px] text-blue-300">0 pendências</span>
+              </div>
+            </div>
+
+            <div class="mt-5 p-4 bg-slate-800/60 rounded-xl border border-slate-700">
+              <div class="flex justify-between items-center mb-2">
+                <span class="text-xs font-semibold text-slate-300">DRE & Fluxo de Caixa</span>
+                <span class="text-xs font-semibold text-emerald-400 font-mono">+ R$ 142.800,00</span>
+              </div>
+              <div class="flex items-end space-x-2 h-16 pt-3">
+                <div class="flex-1 bg-slate-700 rounded-t h-[40%]"></div>
+                <div class="flex-1 bg-slate-700 rounded-t h-[55%]"></div>
+                <div class="flex-1 bg-slate-700 rounded-t h-[50%]"></div>
+                <div class="flex-1 bg-slate-700 rounded-t h-[75%]"></div>
+                <div class="flex-1 bg-emerald-500 rounded-t h-[95%]"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SIMULADOR TRIBUTÁRIO -->
+  <section id="simulador" class="py-20 bg-slate-900 text-white">
+    <div class="max-w-7xl mx-auto px-6">
+      
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <span class="px-3.5 py-1.5 rounded-full bg-emerald-500/20 text-emerald-400 text-xs font-semibold uppercase tracking-wider">
+          Simulador em Tempo Real
+        </span>
+        <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-heading mt-4">
+          Descubra Quanto Você Pode Economizar
+        </h2>
+        <p class="text-slate-400 mt-2 text-sm sm:text-base">
+          Ajuste seu faturamento e veja na hora o impacto de um enquadramento tributário inteligente.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+        
+        <div class="lg:col-span-6 bg-slate-800 rounded-2xl p-6 sm:p-8 border border-slate-700 shadow-xl space-y-6">
+          <div>
+            <div class="flex justify-between items-center mb-2">
+              <label class="text-sm font-medium text-slate-300">Faturamento Mensal:</label>
+              <span id="revenueDisplay" class="text-lg font-bold text-emerald-400 font-mono">R$ 50.000,00</span>
+            </div>
+            <input id="revenueRange" type="range" min="10000" max="600000" step="5000" value="50000"
+              class="w-full h-2.5 bg-slate-700 rounded-lg appearance-none cursor-pointer accent-emerald-500">
+          </div>
+
+          <div>
+            <label class="block text-sm font-medium text-slate-300 mb-2">Ramo de Atividade:</label>
+            <select id="segmentSelect" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white text-sm focus:outline-none focus:ring-2 focus:ring-emerald-500">
+              <option value="tech" selected>Tecnologia, SaaS & Desenvolvedores</option>
+              <option value="saude">Clínicas Médicas & Saúde</option>
+              <option value="servicos">Prestação de Serviços & Consultoria</option>
+              <option value="comercio">Comércio Varejista & E-commerce</option>
+            </select>
+          </div>
+
+          <div class="p-4 bg-slate-900 rounded-xl border border-slate-700 text-xs text-slate-400 flex items-start gap-2">
+            <i class="fa-solid fa-circle-info text-emerald-400 mt-0.5"></i>
+            <span>Cálculo cruzando as tabelas dos Anexos III e V do Simples Nacional com regras de Fator R e Elisão Fiscal.</span>
+          </div>
+        </div>
+
+        <div class="lg:col-span-6 bg-slate-800 rounded-2xl p-6 sm:p-8 border border-emerald-500/40 shadow-2xl space-y-6">
+          <div class="grid grid-cols-2 gap-4">
+            <div class="p-4 rounded-xl bg-slate-900 border border-slate-700">
+              <span class="text-xs text-slate-400">Imposto Mensal Atual:</span>
+              <span id="currentTaxDisplay" class="text-lg font-bold text-red-400 font-mono block mt-1">R$ 7.750,00</span>
+            </div>
+            <div class="p-4 rounded-xl bg-slate-900 border border-emerald-500/40">
+              <span class="text-xs text-emerald-400">Imposto Otimizado Aura:</span>
+              <span id="optimizedTaxDisplay" class="text-lg font-bold text-emerald-400 font-mono block mt-1">R$ 3.000,00</span>
+            </div>
+          </div>
+
+          <div class="p-6 rounded-2xl bg-gradient-to-r from-emerald-950 to-slate-900 border border-emerald-500/60 text-center">
+            <span class="text-xs uppercase tracking-widest text-emerald-300 font-bold">Economia Anual Estimada</span>
+            <div id="annualSavingsDisplay" class="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-emerald-400 font-heading my-2">
+              R$ 57.000,00
+            </div>
+            <p class="text-xs text-slate-300">Lucro líquido preservado no caixa da sua empresa.</p>
+          </div>
+
+          <a id="simWhatsappBtn" href="https://wa.me/5511999999999" target="_blank"
+            class="w-full flex items-center justify-center py-4 px-6 rounded-xl font-bold text-slate-950 bg-emerald-400 hover:bg-emerald-300 transition text-sm">
+            <i class="fa-brands fa-whatsapp text-lg mr-2"></i>
+            Validar Economia no WhatsApp
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SOLUÇÕES -->
+  <section id="solucoes" class="py-20 bg-white">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <h2 class="text-3xl sm:text-4xl font-extrabold font-heading text-slate-900">Nossas Soluções</h2>
+        <p class="text-slate-600 mt-2">Assessoria completa para empresas em crescimento.</p>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div class="p-8 rounded-2xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-xl bg-emerald-50 text-emerald-600 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-file-invoice-dollar"></i>
+          </div>
+          <h3 class="text-xl font-bold font-heading text-slate-900 mb-2">Contabilidade Digital & Fiscal</h3>
+          <p class="text-sm text-slate-600">Fechamentos pontuais, emissão de guias com antecedência e conformidade total com a Receita Federal.</p>
+        </div>
+
+        <div class="p-8 rounded-2xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-xl bg-blue-50 text-blue-600 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-scale-balanced"></i>
+          </div>
+          <h3 class="text-xl font-bold font-heading text-slate-900 mb-2">Planejamento Tributário</h3>
+          <p class="text-sm text-slate-600">Redução de alíquotas com uso estratégico do Fator R, enquadramento de CNAEs e isenção de lucros.</p>
+        </div>
+
+        <div class="p-8 rounded-2xl border border-slate-200 bg-white shadow-sm hover:shadow-md transition">
+          <div class="w-12 h-12 rounded-xl bg-purple-50 text-purple-600 flex items-center justify-center text-xl mb-4">
+            <i class="fa-solid fa-calculator"></i>
+          </div>
+          <h3 class="text-xl font-bold font-heading text-slate-900 mb-2">BPO Financeiro</h3>
+          <p class="text-sm text-slate-600">Terceirização das contas a pagar, contas a receber, conciliação bancária e emissão de notas fiscais.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FORMULÁRIO DE CONTATO -->
+  <section id="contato" class="py-20 bg-slate-900 text-white">
+    <div class="max-w-3xl mx-auto px-6">
+      <div class="text-center mb-10">
+        <h2 class="text-3xl font-extrabold font-heading">Solicitar Diagnóstico Gratuito</h2>
+        <p class="text-slate-400 mt-2 text-sm">Receba uma análise completa do seu enquadramento em menos de 24 horas.</p>
+      </div>
+
+      <form onsubmit="event.preventDefault(); alert('Solicitação recebida com sucesso!');" class="space-y-4 bg-slate-800 p-8 rounded-2xl border border-slate-700">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 mb-1">Seu Nome *</label>
+            <input type="text" required placeholder="Carlos Silva" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white text-sm focus:outline-none">
+          </div>
+          <div>
+            <label class="block text-xs font-semibold text-slate-300 mb-1">WhatsApp com DDD *</label>
+            <input type="tel" required placeholder="(11) 99999-9999" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white text-sm focus:outline-none">
+          </div>
+        </div>
+        <div>
+          <label class="block text-xs font-semibold text-slate-300 mb-1">E-mail Corporativo *</label>
+          <input type="email" required placeholder="carlos@suaempresa.com.br" class="w-full bg-slate-900 border border-slate-700 rounded-xl px-4 py-3 text-white text-sm focus:outline-none">
+        </div>
+        <button type="submit" class="w-full py-4 rounded-xl font-bold bg-emerald-500 hover:bg-emerald-400 text-slate-950 transition text-sm">
+          Solicitar Análise Gratuita
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- RODAPÉ -->
+  <footer class="bg-slate-950 text-slate-400 text-xs py-8 text-center border-t border-slate-800">
+    <p>© 2026 Aura Contábil Estratégica. Todos os direitos reservados. CRC 1SP99999/O-0</p>
+  </footer>
+
+  <!-- SCRIPT DO SIMULADOR -->
+  <script>
+    function updateCalc() {
+      const revenue = parseFloat(document.getElementById('revenueRange').value) || 50000;
+      document.getElementById('revenueDisplay').innerText = new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(revenue);
+
+      const segment = document.getElementById('segmentSelect').value;
+      let stdRate = 0.155;
+      let optRate = 0.06;
+
+      if (segment === 'saude') { stdRate = 0.1633; optRate = 0.0805; }
+      else if (segment === 'comercio') { stdRate = 0.085; optRate = 0.052; }
+      else if (segment === 'servicos') { stdRate = 0.145; optRate = 0.075; }
+
+      const curTax = revenue * stdRate;
+      const optTax = revenue * optRate;
+      const savings = (curTax - optTax) * 12;
+
+      const fmt = (v) => new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(v);
+      document.getElementById('currentTaxDisplay').innerText = fmt(curTax);
+      document.getElementById('optimizedTaxDisplay').innerText = fmt(optTax);
+      document.getElementById('annualSavingsDisplay').innerText = fmt(savings);
+
+      const msg = encodeURIComponent(`Olá! Fiz a simulação no site para faturamento de ${fmt(revenue)}/mês e vi economia anual estimada de ${fmt(savings)}. Gostaria de saber mais.`);
+      document.getElementById('simWhatsappBtn').href = `https://wa.me/5511999999999?text=${msg}`;
+    }
+
+    document.getElementById('revenueRange').addEventListener('input', updateCalc);
+    document.getElementById('segmentSelect').addEventListener('change', updateCalc);
+    updateCalc();
+  </script>
+</body>
+</html>
